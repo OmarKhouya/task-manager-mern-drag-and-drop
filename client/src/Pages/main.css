@@ -1,0 +1,109 @@
+.main-container *, ::after, ::before {
+    box-sizing: border-box;
+}
+.main-body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #F5F5F5;
+}
+.main-container{
+    height: 600px;
+    width: 900px;
+    border: none;
+    border-radius: 0rem 1rem 1rem 0rem;
+    background-color: #F2EAD3;
+    overflow-y: scroll;
+}
+
+.main-tasks-group{
+    margin: 1.3rem 0.5rem;
+    padding: 1rem;
+    width: 270px;
+    /* text-align: center; */
+    /* border: 0.5px solid black; */
+}
+
+.main-tasks-parent{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.main-task-card{
+    padding: 1rem;
+    margin: 1rem 0rem;
+    border-radius: 1rem;
+    background-color: #F5F5F5;
+}
+.main-task-card .task-description{
+    font-size: 12px;
+    color: gray;
+}
+.main-task-card .task-duration {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 1rem;
+    font-size: 12px;
+    color: gray;
+}
+.main-task-card .task-duration p{
+    margin-bottom: 0%;
+    padding-left: 2px;
+}
+.main-task-card .task-creation-date{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-top: .5rem;
+    font-size: 12px;
+    color: rgb(0, 0, 0);
+}
+.main-task-card .task-creation-date p{
+    margin-bottom: 0%;
+    padding-left: 2px;
+}
+
+.main-add-task {
+    display: flex;
+}
+.main-add-task input{
+	outline: none!important;
+    border: 0px;
+    border-radius: 5px;
+    padding: 0px 5px;
+    width: 200px;
+    height: 2rem;
+    font-size: 15px!important;
+}
+.main-add-task button{
+    color: gray;
+}
+#task-priority-checkbox{
+    width: 15px!important;
+    margin-right: 15px!important;
+}
+
+.main-container::-webkit-scrollbar {
+    width: 7px;
+    margin: 0% 1rem!important;
+}
+.main-container::-webkit-scrollbar-track {
+    display: none;
+}
+.main-container::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 100px rgb(84, 83, 83);
+}
+.main-task-delete {
+    cursor: pointer!important;
+}
+.about-text {
+    color:  #3F2305;
+}

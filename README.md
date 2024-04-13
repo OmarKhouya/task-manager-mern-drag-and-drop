@@ -22,7 +22,7 @@ The Task Manager Application is a comprehensive full-stack web solution crafted 
 Clone the repository :
 
 ```bash
- git clone https://github.com/yourusername/task-manager.git
+ git clone https://github.com/OmarKhouya/task-manager-mern-drag-and-drop.git
 ```
 
 install dependencies :
@@ -40,7 +40,7 @@ install dependencies :
  cd client
  npm start
  cd ../server
- npm run start
+ npm run start:dev
 ```
 
 ## Contributing
